@@ -26,5 +26,16 @@ if ((!keyboard_check(rightKey) && !keyboard_check(leftKey)) ||
     hspd = 0;
 }
 
+if (x < 0) {
+	x = 0;
+} else if (x > room_width - sprite_width) {
+	x = room_width - sprite_width;
+}
+
+
+
+
 x += hspd;
 y += vspd;
+
+

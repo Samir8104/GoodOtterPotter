@@ -35,6 +35,7 @@
   },
   "name":"GoodOtterPotter",
   "resources":[
+    {"id":{"name":"camera_Object","path":"objects/camera_Object/camera_Object.yy",},},
     {"id":{"name":"flr_Object","path":"objects/flr_Object/flr_Object.yy",},},
     {"id":{"name":"plr_Object","path":"objects/plr_Object/plr_Object.yy",},},
     {"id":{"name":"ptry_Object","path":"objects/ptry_Object/ptry_Object.yy",},},

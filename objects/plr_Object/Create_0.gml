@@ -6,4 +6,4 @@ jspd = 17.5;
 vspd = 0;
 hspd = 0;
 spd = 10;
-ptryInv = 0;
+pottery = 0;
