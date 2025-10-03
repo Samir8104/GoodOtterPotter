@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"flr_Object",
-  "eventList":[],
+  "%Name":"nextRoom_Object",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"plr_Object","path":"objects/plr_Object/plr_Object.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"flr_Object",
+  "name":"nextRoom_Object",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -21,21 +23,16 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[
-    {"x":0.0,"y":0.0,},
-    {"x":64.0,"y":0.0,},
-    {"x":64.0,"y":64.0,},
-    {"x":0.0,"y":64.0,},
-  ],
+  "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"placeholder_platform",
-    "path":"sprites/placeholder_platform/placeholder_platform.yy",
+    "name":"placeholder_door",
+    "path":"sprites/placeholder_door/placeholder_door.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

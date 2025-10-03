@@ -36,10 +36,16 @@
   "name":"GoodOtterPotter",
   "resources":[
     {"id":{"name":"camera_Object","path":"objects/camera_Object/camera_Object.yy",},},
+    {"id":{"name":"death_Object","path":"objects/death_Object/death_Object.yy",},},
     {"id":{"name":"flr_Object","path":"objects/flr_Object/flr_Object.yy",},},
+    {"id":{"name":"nextRoom_Object","path":"objects/nextRoom_Object/nextRoom_Object.yy",},},
     {"id":{"name":"plr_Object","path":"objects/plr_Object/plr_Object.yy",},},
     {"id":{"name":"ptry_Object","path":"objects/ptry_Object/ptry_Object.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"homeRoom","path":"rooms/homeRoom/homeRoom.yy",},},
+    {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"id":{"name":"city_bkg","path":"sprites/city_bkg/city_bkg.yy",},},
+    {"id":{"name":"placeholder_door","path":"sprites/placeholder_door/placeholder_door.yy",},},
+    {"id":{"name":"placeholder_pit","path":"sprites/placeholder_pit/placeholder_pit.yy",},},
     {"id":{"name":"placeholder_platform","path":"sprites/placeholder_platform/placeholder_platform.yy",},},
     {"id":{"name":"placeholder_plr","path":"sprites/placeholder_plr/placeholder_plr.yy",},},
     {"id":{"name":"plr_sprite","path":"sprites/plr_sprite/plr_sprite.yy",},},
@@ -49,7 +55,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"homeRoom","path":"rooms/homeRoom/homeRoom.yy",},},
+    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
