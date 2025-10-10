@@ -6,3 +6,5 @@ max_fall     = 12;  // Terminal velocity
 pottery = 0;
 hspd = 0;
 vspd = 0;
+image_xscale = 0.6
+image_yscale = 0.45
