@@ -21,12 +21,7 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[
-    {"x":0.0,"y":0.0,},
-    {"x":64.0,"y":0.0,},
-    {"x":64.0,"y":64.0,},
-    {"x":0.0,"y":64.0,},
-  ],
+  "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
@@ -37,5 +32,5 @@
     "path":"sprites/placeholder_platform/placeholder_platform.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
