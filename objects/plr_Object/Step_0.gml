@@ -1,22 +1,38 @@
+
 var rightKey = ord("D");
 var leftKey  =ord("A");
 var jumpKey  = keyboard_check_pressed(vk_space);
 var facing = 1;
-// Movement
-if (keyboard_check(rightKey) && !place_meeting(x + player_speed, y, flr_Object)) {
-    x += player_speed;
-    facing = 1; // face right
+hspd = 0;
+
+
+
+
+
+
+if (keyboard_check(rightKey)){
+    hspd = player_speed;
+    state = PlayerStates.running;
+    facing = 1;
 }
-if (keyboard_check(leftKey) && !place_meeting(x - player_speed, y, flr_Object)) {
-    x -= player_speed;
-    facing = -1; // face left
+if (keyboard_check(leftKey)){
+    hspd = -player_speed;
+    state = PlayerStates.running;
+    facing = -1;
 }
 
-// Apply the facing every frame
+
+if (!keyboard_check(rightKey) && !keyboard_check(leftKey) && place_meeting(x, y+1, flr_Object)) {
+    state = PlayerStates.idle;
+	hspd = 0;
+}
+
+
 image_xscale = 0.6 * facing;
 
 
 if (jumpKey && place_meeting(x, y+1, flr_Object)) {
+	state = PlayerStates.jumping
     vspd = -jump_power;
 }
 
@@ -24,14 +40,10 @@ if (jumpKey && place_meeting(x, y+1, flr_Object)) {
 vspd += gravity_amt;
 if (vspd > max_fall) vspd = max_fall;
 
+show_debug_message(hspd)
 
-if (place_meeting(x + hspd, y, flr_Object)) {
-    while (!place_meeting(x + sign(hspd), y, flr_Object)) {
-        x += sign(hspd);
-    }
-    hspd = 0;
-}
-x += hspd;
+x+=hspd;
+
 
 
 if (place_meeting(x, y + vspd, flr_Object)) {
@@ -42,8 +54,11 @@ if (place_meeting(x, y + vspd, flr_Object)) {
 }
 y += vspd;
 
-if (hspd == 0 && vspd == 0){
-	sprite_index = plr_idle;
 
-	show_debug_message("Idle animation should be playing");
+
+if (state == PlayerStates.idle) {
+	sprite_index = plr_idle;
+} else if (state == PlayerStates.running) {
+	sprite_index = plr_run;
+	show_debug_message("Run animation should be playing");
 }
