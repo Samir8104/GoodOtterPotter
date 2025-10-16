@@ -1,10 +1,10 @@
 // Player Variables
-player_speed = 15;   // Horizontal movement speed
-jump_power   = 15;  // Jump strength
-gravity_amt  = 0.5; // Gravity strength
+player_speed = 13;   // Horizontal movement speed
+jump_power   = 18;  // Jump strength
+gravity_amt  = 0.6; // Gravity strength
 max_fall     = 12;  // Terminal velocity
-pottery = 0;
 hspd = 0;
 vspd = 0;
+
 image_xscale = 0.6
 image_yscale = 0.45

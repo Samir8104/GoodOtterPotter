@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"nextRoom_Object",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"plr_Object","path":"objects/plr_Object/plr_Object.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"nextRoom_Object",
   "overriddenProperties":[],

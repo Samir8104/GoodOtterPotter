@@ -34,5 +34,5 @@
     "path":"sprites/placeholder_pit/placeholder_pit.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -3,6 +3,8 @@
   "%Name":"ptry_Object",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"plr_Object","path":"objects/plr_Object/plr_Object.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"ptry_Object",
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"pottery_sprite",
-    "path":"sprites/pottery_sprite/pottery_sprite.yy",
+    "name":"fragment_sprite",
+    "path":"sprites/fragment_sprite/fragment_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

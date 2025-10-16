@@ -1,0 +1,1 @@
+y = ystart - 30 + cos(current_time * 0.002) * 25;
