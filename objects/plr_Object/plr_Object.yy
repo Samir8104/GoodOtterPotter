@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"plr_sprite",
-    "path":"sprites/plr_sprite/plr_sprite.yy",
+    "name":"plr_idle",
+    "path":"sprites/plr_idle/plr_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
