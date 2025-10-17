@@ -1,0 +1,9 @@
+touched = false
+minigameActive = false
+arrowPos = 0;
+gameTimer = 0;
+gameDuration = 750;
+driftTimer = 0;
+driftInterval = 0;
+minVal = -100;
+maxVal = 100;

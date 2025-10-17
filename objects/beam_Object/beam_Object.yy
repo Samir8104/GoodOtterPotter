@@ -2,7 +2,8 @@
   "$GMObject":"",
   "%Name":"beam_Object",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"plr_Object","path":"objects/plr_Object/plr_Object.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"beam_Object",
@@ -11,10 +12,7 @@
     "name":"minigame_objects",
     "path":"folders/Objects/minigame_objects.yy",
   },
-  "parentObjectId":{
-    "name":"flr_Object",
-    "path":"objects/flr_Object/flr_Object.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

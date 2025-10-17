@@ -67,6 +67,7 @@
     {"id":{"name":"placeholder_pit","path":"sprites/placeholder_pit/placeholder_pit.yy",},},
     {"id":{"name":"placeholder_platform","path":"sprites/placeholder_platform/placeholder_platform.yy",},},
     {"id":{"name":"placeholder_plr","path":"sprites/placeholder_plr/placeholder_plr.yy",},},
+    {"id":{"name":"plr_balance","path":"sprites/plr_balance/plr_balance.yy",},},
     {"id":{"name":"plr_idle","path":"sprites/plr_idle/plr_idle.yy",},},
     {"id":{"name":"plr_jump","path":"sprites/plr_jump/plr_jump.yy",},},
     {"id":{"name":"plr_run","path":"sprites/plr_run/plr_run.yy",},},
