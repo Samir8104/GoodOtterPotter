@@ -1,6 +1,7 @@
 var rightKey = ord("D");
 var leftKey  = ord("A");
 var jumpKey  = keyboard_check_pressed(vk_space);
+
 // Movement
 if (keyboard_check(rightKey) && !place_meeting(x + player_speed, y, flr_Object) and state != PlayerStates.balancing) {
     hspd = player_speed;
@@ -14,15 +15,17 @@ if (!keyboard_check(rightKey) and !keyboard_check(leftKey) and state != PlayerSt
 	hspd = 0;
 }
 
-
 plrSprite_Object.image_xscale = 0.6 * facing;
 
-
+// --- Jump logic ---
 if (jumpKey && place_meeting(x, y+1, flr_Object) and state != PlayerStates.balancing) {
     vspd = -jump_power;
-    plrSprite_Object.state = PlayerStates.jumping
-}
+    plrSprite_Object.state = PlayerStates.jumping;
 
+    // 🔊 Play jump sound
+    audio_play_sound(jump_sfx, 0, false);
+}
+// --- End jump logic ---
 
 vspd += gravity_amt;
 if (vspd > max_fall) vspd = max_fall;
@@ -36,26 +39,22 @@ if (vspd > max_fall) vspd = max_fall;
 	}
 	x += hspd; 
 
-
 	if (place_meeting(x, y + vspd, flr_Object)) {
 	    while (!place_meeting(x, y + sign(vspd), flr_Object)) {
 	        y += sign(vspd);
 	    }
 	    vspd = 0;
-
 	}
 	y += vspd;  
 #endregion
 
-
-
 // handle sprites/animations
-if(plrSprite_Object.state != PlayerStates.balancing) {
-	if (hspd == 0 && vspd == 0 and plrSprite_Object.state != PlayerStates.jumping){
-		plrSprite_Object.state = PlayerStates.idle
+if (plrSprite_Object.state != PlayerStates.balancing) {
+	if (hspd == 0 && vspd == 0 and plrSprite_Object.state != PlayerStates.jumping) {
+		plrSprite_Object.state = PlayerStates.idle;
 	}
 	if (hspd != 0 and plrSprite_Object.state != PlayerStates.jumping) {
-		plrSprite_Object.state = PlayerStates.running
+		plrSprite_Object.state = PlayerStates.running;
 	}
 	if (!place_meeting(x, y + 1, flr_Object) and vspd > 0) {
 	    plrSprite_Object.state = PlayerStates.falling;
