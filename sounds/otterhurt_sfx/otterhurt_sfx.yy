@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"pottery_collection",
+  "%Name":"otterhurt_sfx",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.4388435,
-  "name":"pottery_collection",
+  "duration":0.4702041,
+  "name":"otterhurt_sfx",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"pottery_collection.wav",
+  "soundFile":"otterhurt_sfx.mp3",
   "type":0,
-  "volume":0.54,
+  "volume":0.74,
 }
