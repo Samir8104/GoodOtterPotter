@@ -1,9 +1,9 @@
 
+// there is some redudant code in here, but it runs fine :P
+// I'll remove the redudant stuff later - Samir
+
 var dangerTime = 0;
 var threshold = 0;
-
-
-
 var gameActive = true;
 var driftTimer = 0;
 var driftInterval = irandom_range(0, 20);
@@ -25,7 +25,7 @@ if(minigameActive and instance_exists(dangerBar_Object)) {
 	}
 	
 	driftTimer += 1;
-	if(driftTimer >= driftInterval) {
+	if(driftTimer >= driftInterval) { 
 		var driftDirection = choose(-1, 1);
 		var driftAmount = 1
 		arrowPos += driftDirection * driftAmount
