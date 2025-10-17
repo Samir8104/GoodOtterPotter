@@ -1,0 +1,1 @@
+audio_play_sound(enemy_death, 1, false);

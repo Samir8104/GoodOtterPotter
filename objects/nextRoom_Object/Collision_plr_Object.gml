@@ -1,0 +1,1 @@
+audio_play_sound(level_completion, 1, false);
