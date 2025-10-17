@@ -1,5 +1,5 @@
 var rightKey = ord("D");
-var leftKey  =ord("A");
+var leftKey  = ord("A");
 var jumpKey  = keyboard_check_pressed(vk_space);
 var facing = 1;
 // Movement
