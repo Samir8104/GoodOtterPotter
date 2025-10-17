@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"wobble_sfx.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.65,
 }

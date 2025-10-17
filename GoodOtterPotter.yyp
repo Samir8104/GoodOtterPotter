@@ -78,6 +78,7 @@
     {"id":{"name":"jump_sfx","path":"sounds/jump_sfx/jump_sfx.yy",},},
     {"id":{"name":"level_completion","path":"sounds/level_completion/level_completion.yy",},},
     {"id":{"name":"pottery_collection","path":"sounds/pottery_collection/pottery_collection.yy",},},
+    {"id":{"name":"soundtrack","path":"sounds/soundtrack/soundtrack.yy",},},
     {"id":{"name":"wobble_sfx","path":"sounds/wobble_sfx/wobble_sfx.yy",},},
     {"id":{"name":"arrow_sprite","path":"sprites/arrow_sprite/arrow_sprite.yy",},},
     {"id":{"name":"avoid_text","path":"sprites/avoid_text/avoid_text.yy",},},
