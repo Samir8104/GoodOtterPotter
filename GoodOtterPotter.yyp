@@ -96,6 +96,7 @@
     {"id":{"name":"pottery_sprite","path":"sprites/pottery_sprite/pottery_sprite.yy",},},
     {"id":{"name":"start_sp","path":"sprites/start_sp/start_sp.yy",},},
     {"id":{"name":"studio_bkg","path":"sprites/studio_bkg/studio_bkg.yy",},},
+    {"id":{"name":"studio2_bkg","path":"sprites/studio2_bkg/studio2_bkg.yy",},},
     {"id":{"name":"success_sprite","path":"sprites/success_sprite/success_sprite.yy",},},
     {"id":{"name":"youWin","path":"sprites/youWin/youWin.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
