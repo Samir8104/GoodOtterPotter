@@ -10,6 +10,9 @@ var driftInterval = irandom_range(0, 20);
 
 if(minigameActive and instance_exists(dangerBar_Object)) {
 	plr_Object.sprite_index = plr_balance
+	plr_Object.x = x
+	plr_Object.y = y - 125
+	plrSprite_Object.state = PlayerStates.balancing
 	var minVal = (dangerBar_Object.sprite_width / 2) * -1
     var maxVal = dangerBar_Object.sprite_width / 2
 	var leftPressed = keyboard_check_pressed(ord("A"));
@@ -56,14 +59,14 @@ if(minigameActive and instance_exists(dangerBar_Object)) {
 		if(inSuccessZone) {
 			show_debug_message("Minigame Won!");
 			plr_Object.sprite_index = plr_idle
-			plr_Object.state = PlayerStates.idle;
+			plrSprite_Object.state = PlayerStates.idle;
 			instance_destroy(dangerBar_Object);
 			instance_destroy(successBar_Object);
 			instance_destroy(arrow_Object);
 		} else {
 			show_debug_message("Minigame Lost!");
 			plr_Object.state = PlayerStates.idle;
-			plr_Object.y += 300
+			plr_Object.y += 350
 			instance_destroy(dangerBar_Object);
 			instance_destroy(successBar_Object);
 			instance_destroy(arrow_Object);

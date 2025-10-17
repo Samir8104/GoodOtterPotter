@@ -43,18 +43,22 @@ if (vspd > max_fall) vspd = max_fall;
 	        y += sign(vspd);
 	    }
 	    vspd = 0;
+
 	}
 	y += vspd;  // << KEEP THIS LINE!!!
 #endregion
 
-//debug
-show_debug_message("hspd = " + string(hspd));
-show_debug_message("vspd = " + string(vspd));
+
 
 // handle sprites/animations
-if (hspd == 0 && vspd == 0 and state != PlayerStates.balancing){
-	plrSprite_Object.state = PlayerStates.idle
-
-} else if (hspd != 0 and state != PlayerStates.balancing) {
-	plrSprite_Object.state = PlayerStates.running
+if(plrSprite_Object.state != PlayerStates.balancing) {
+	if (hspd == 0 && vspd == 0 and plrSprite_Object.state != PlayerStates.jumping){
+		plrSprite_Object.state = PlayerStates.idle
+	}
+	if (hspd != 0 and plrSprite_Object.state != PlayerStates.jumping) {
+		plrSprite_Object.state = PlayerStates.running
+	}
+	if (!place_meeting(x, y + 1, flr_Object) and vspd > 0) {
+	    plrSprite_Object.state = PlayerStates.falling;
+	}
 }

@@ -2,7 +2,7 @@
 
 if(beam_Object.touched == false) {
 	beam_Object.minigameActive = true
-	state = PlayerStates.balancing
+	plrSprite_Object.state = PlayerStates.balancing
 	x = beam_Object.x	
 	y = beam_Object.y - 150
 	beam_Object.touched = true
