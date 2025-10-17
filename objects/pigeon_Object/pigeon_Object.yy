@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"pigeon_Object",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"hedgehog_Object","path":"objects/hedgehog_Object/hedgehog_Object.yy",},"propertyId":{"name":"hsp","path":"objects/hedgehog_Object/hedgehog_Object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
