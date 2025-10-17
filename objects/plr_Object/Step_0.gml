@@ -15,6 +15,8 @@ if (!keyboard_check(rightKey) and !keyboard_check(leftKey) and state != PlayerSt
 	hspd = 0;
 }
 
+if (!variable_instance_exists(id, "invulnerable")) invulnerable = false;
+
 plrSprite_Object.image_xscale = 0.6 * facing;
 
 // --- Jump logic ---
