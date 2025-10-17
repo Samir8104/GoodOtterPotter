@@ -1,6 +1,4 @@
 
-// there is some redudant code in here, but it runs fine :P
-// I'll remove the redudant stuff later - Samir
 
 var dangerTime = 0;
 var threshold = 0;
@@ -8,7 +6,7 @@ var gameActive = true;
 var driftTimer = 0;
 var driftInterval = irandom_range(0, 20);
 
-if(minigameActive and instance_exists(dangerBar_Object)) {
+if(minigameActive and instance_exists(dangerBar_Object) and touched) {
 	plr_Object.sprite_index = plr_balance
 	plr_Object.x = x
 	plr_Object.y = y - 125
@@ -30,17 +28,13 @@ if(minigameActive and instance_exists(dangerBar_Object)) {
 	driftTimer += 1;
 	if(driftTimer >= driftInterval) { 
 		var driftDirection = choose(-1, 1);
-		var driftAmount = 1
+		var driftAmount = 0.8
 		arrowPos += driftDirection * driftAmount
-		show_debug_message("Hi I should be running")
 		driftTimer = 0;
 		driftInterval = irandom_range(60, 120);
 	}
 	arrowPos = clamp(arrowPos, minVal, maxVal);
 	
-	var barWidth = dangerBar_Object.sprite_width * dangerBar_Object.image_xscale;
-	var centerX = dangerBar_Object.x;
-	var pixelsPerUnit = (barWidth / 2) / maxVal;
     
 	arrow_Object.x += arrowPos
 	show_debug_message("Arrow X is.." + string(arrow_Object.x))

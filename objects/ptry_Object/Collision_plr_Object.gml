@@ -1,6 +1,10 @@
+if(id.visible == true) {
+	
 score += 1;
 if(score == 4){
 	score = 0;
 	GUI_Object.Pots += 1
 }
-instance_destroy()
+visible = false
+show_debug_message("Object going invis")
+}

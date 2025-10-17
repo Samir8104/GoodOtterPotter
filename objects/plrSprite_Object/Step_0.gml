@@ -1,6 +1,5 @@
 
 
-show_debug_message("State:" + string(state))
 
 if (state == PlayerStates.idle) {
  sprite_index = plr_idle
@@ -11,13 +10,19 @@ if (state == PlayerStates.running) {
 }
 if(state == PlayerStates.jumping) {
 sprite_index = plr_jump
-show_debug_message("JUMPING!")
 }
 if(state == PlayerStates.falling) {
 sprite_index = plr_fall
 }
 if(state == PlayerStates.balancing) {
 	sprite_index = plr_balance
+}
+
+if (plr_Object.invulnerable) {
+    // blink every 5 frames
+    image_alpha = (current_time div 100) mod 2;
+} else {
+    image_alpha = 1;
 }
 
 

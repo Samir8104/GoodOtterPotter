@@ -5,8 +5,9 @@ gravity_amt  = 0.6;
 max_fall     = 12;  
 hspd = 0;
 vspd = 0;
-
+score = 0;
 facing = 1;
+invulnerable = false
 
 state = 0;
 

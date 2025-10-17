@@ -1,7 +1,6 @@
 var rightKey = ord("D");
 var leftKey  = ord("A");
 var jumpKey  = keyboard_check_pressed(vk_space);
-//var facing = 1;
 // Movement
 if (keyboard_check(rightKey) && !place_meeting(x + player_speed, y, flr_Object) and state != PlayerStates.balancing) {
     hspd = player_speed;
@@ -45,7 +44,7 @@ if (vspd > max_fall) vspd = max_fall;
 	    vspd = 0;
 
 	}
-	y += vspd;  // << KEEP THIS LINE!!!
+	y += vspd;  
 #endregion
 
 

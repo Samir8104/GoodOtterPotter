@@ -2,3 +2,4 @@
 
 instance_destroy(other)
 room_restart()
+room_goto(lose_sc)
