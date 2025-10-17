@@ -50,6 +50,7 @@
     {"id":{"name":"nextRoom_Object","path":"objects/nextRoom_Object/nextRoom_Object.yy",},},
     {"id":{"name":"pigeon_Object","path":"objects/pigeon_Object/pigeon_Object.yy",},},
     {"id":{"name":"plr_Object","path":"objects/plr_Object/plr_Object.yy",},},
+    {"id":{"name":"plrSprite_Object","path":"objects/plrSprite_Object/plrSprite_Object.yy",},},
     {"id":{"name":"ptry_Object","path":"objects/ptry_Object/ptry_Object.yy",},},
     {"id":{"name":"restart","path":"objects/restart/restart.yy",},},
     {"id":{"name":"successBar_Object","path":"objects/successBar_Object/successBar_Object.yy",},},

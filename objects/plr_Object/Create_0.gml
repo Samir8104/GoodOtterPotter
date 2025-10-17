@@ -6,6 +6,8 @@ max_fall     = 12;
 hspd = 0;
 vspd = 0;
 
+facing = 1;
+
 state = 0;
 
 enum PlayerStates {
