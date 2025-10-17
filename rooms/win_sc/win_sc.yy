@@ -1,21 +1,25 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Room4",
+  "%Name":"win_sc",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_4F20B437","path":"rooms/Room4/Room4.yy",},
+    {"name":"inst_4F20B437","path":"rooms/win_sc/win_sc.yy",},
+    {"name":"inst_B1F295C","path":"rooms/win_sc/win_sc.yy",},
+    {"name":"inst_2B9E92DF","path":"rooms/win_sc/win_sc.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_4F20B437","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F20B437","objectId":{"name":"win_UI","path":"objects/win_UI/win_UI.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.1721035,"scaleY":0.17529435,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v2","%Name":"inst_B1F295C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B1F295C","objectId":{"name":"restart","path":"objects/restart/restart.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.875,"scaleY":0.5,"x":688.0,"y":432.0,},
+        {"$GMRInstance":"v2","%Name":"inst_2B9E92DF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B9E92DF","objectId":{"name":"exit_game","path":"objects/exit_game/exit_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.125,"scaleY":0.5,"x":688.0,"y":576.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"city_bkg","path":"sprites/city_bkg/city_bkg.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room4",
+  "name":"win_sc",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
