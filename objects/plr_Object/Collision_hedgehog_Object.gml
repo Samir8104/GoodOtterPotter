@@ -1,10 +1,11 @@
-
-
 if (!invulnerable) {
     if (vspd > 0 && y < other.y) {
         with (other) instance_destroy();
         vspd = -6;
     } else {
+        // 🔊 play hurt SFX once on taking damage
+        audio_play_sound(otterhurt_sfx, 0, false);
+
         if (score > 0) {
             score -= 1;
             invulnerable = true;
@@ -14,8 +15,8 @@ if (!invulnerable) {
             show_debug_message("Breaking one pottery. score=" + string(score));
         } else {
             instance_destroy();
-			room_restart()
-            room_goto(lose_sc)
+            room_restart();
+            room_goto(lose_sc);
         }
     }
 }
