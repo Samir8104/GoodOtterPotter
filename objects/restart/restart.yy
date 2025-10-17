@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"pigeon_Object",
-  "eventList":[],
+  "%Name":"restart",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"pigeon_Object",
+  "name":"restart",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"hedgehog_Object",
-    "path":"objects/hedgehog_Object/hedgehog_Object.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"pigeon_sprite",
-    "path":"sprites/pigeon_sprite/pigeon_sprite.yy",
+    "name":"placeholder_platform",
+    "path":"sprites/placeholder_platform/placeholder_platform.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

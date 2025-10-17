@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"pigeon_Object",
+  "%Name":"win_UI",
   "eventList":[],
   "managed":true,
-  "name":"pigeon_Object",
+  "name":"win_UI",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"hedgehog_Object",
-    "path":"objects/hedgehog_Object/hedgehog_Object.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"pigeon_sprite",
-    "path":"sprites/pigeon_sprite/pigeon_sprite.yy",
+    "name":"youWin",
+    "path":"sprites/youWin/youWin.yy",
   },
   "spriteMaskId":null,
   "visible":true,
